@@ -1,0 +1,208 @@
+body {
+	background-color: gray !important; 
+}
+
+#header {
+    color: white;
+    text-decoration: underline;
+}
+
+h2 {
+	text-align: center;
+}
+
+#sess_break {
+    position: relative; 
+    top: 7em;
+    text-align: center;  
+}
+
+#SL {
+	display: inline;
+    position: relative; 
+    right: 4.7em;
+    color: white;
+}
+
+#BL {
+ 	display: inline;
+    position: relative;
+    left: 5.3em;
+    color: white;
+}
+
+#t1 {
+	width: 2em;
+    position: relative;
+    top: 1em;
+    right: 7em;
+    text-align: center;
+}
+
+#t2 {
+	width: 2em;
+    position: relative;
+    top: 1em;
+    left: 7.5em;
+    text-align: center;
+}
+
+.b1_2 {
+    position: relative;
+	top: 2em;
+	right: 6.2em;
+
+}
+
+.b1_2:active {
+    transform: translateY(.2em);
+}
+
+
+.b3_4 {
+    position: relative;
+	top: 2em;
+	left: 6.8em;
+}
+
+.b3_4:active {
+    transform: translateY(.2em);
+}
+
+#canvasInputs {
+    position: relative; 
+    text-align: center;
+    top: 17em;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#canvasText {
+    position: relative;
+    bottom: 1em;
+    color: white;
+    font-size: 1.1em;
+    z-index: 1;
+}
+
+#timer {
+    text-align: center;
+    width: 8em;
+    height: 3em;
+    position: relative;
+
+}
+
+canvas {
+    background-color: gray;
+    position: relative; 
+    left: 36.8em;
+    top: 4em;
+} 
+
+#ssRes {
+    position: relative; 
+    text-align: center; 
+    top: 4em;
+}
+
+#b5 {
+    margin-right: .5em;
+    text-align: center;
+    border-width: .12em;
+    background-color: gray;
+    border-color: black;
+    color: white;
+}
+
+#b5:active {
+  transform: translateY(.4em);
+  background-color: black;
+  box-shadow: none;
+}
+
+#b5:focus {
+    outline: 0;
+}
+
+#b5:disabled {
+  background-color: gray;
+  box-shadow: none;
+  opacity: 0.5;
+
+}
+
+#b6 {
+    margin-right: .5em;
+    text-align: center;
+    border-width: .12em;
+    background-color: gray;
+    border-color: black;
+    color: white;
+}
+
+#b6:active {
+  transform: translateY(.4em);
+  background-color: black;
+  box-shadow: none;
+}
+
+#b6:focus {
+    outline: 0;
+}
+
+#b7 {
+    margin-right: .5em;
+    text-align: center;
+    border-width: .12em;
+    background-color: gray;
+    border-color: black;
+    color: white;
+}
+
+#b7:active {
+  transform: translateY(.4em);
+  background-color: black;
+  box-shadow: none;
+}
+
+#b7:focus {
+    outline: 0;
+}
+
+#b7:disabled {
+  background-color: gray;
+  box-shadow: none;
+  opacity: 0.5;
+}
+
+#b8 {
+    margin-right: .5em;
+    text-align: center;
+    border-width: .12em;
+    background-color: gray;
+    border-color: black;
+    color: white;
+}
+
+#b8:active {
+  transform: translateY(.4em);
+  background-color: black;
+  box-shadow: none;
+}
+
+#b8:focus {
+    outline: 0;
+}
+
+#b8:disabled {
+  background-color: gray;
+  box-shadow: none;
+  opacity: 0.5;
+
+}
+
+footer {
+	text-align: center;
+	color: white;
+}

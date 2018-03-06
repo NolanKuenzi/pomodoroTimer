@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link  href="main.css" type="text/css" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" /> 
+	<title>Pomodoro Timer</title>
+</head>
+
+<body onload="draw()">
+		
+	<div id="navBarTop">
+			<nav class="navbar navbar-fixed-top navbar-custom" id="header">
+    			<span> 
+    				<h2>Pomodoro Timer</h2>
+				</span>
+			</nav>
+		</div>
+
+	<div id="bodyDiv">
+		
+		<div id="sess_break">
+		  <div>	
+			<h5 id="SL">Work Session</h5>
+			<h5 id="BL">Break Session</h5><br>
+		  </div>
+		  <div>	
+			<input name="t1" type="text" id="t1" value="25" />
+			<input name="t2" type="text" id="t2" value="5" />	
+		  </div>
+		  <div>
+		  	<input name="b1" type="button" class="b1_2" id="b1" value="-" onclick="b1()" />
+		  	<input name="b2" type="button" class="b1_2" id="b2" value="+" onclick="b2()" />
+		  	<input name="b3" type="button" class="b3_4" id="b3" value="-" onclick="b3()" />
+		  	<input name="b4" type="button" class="b3_4" id="b4" value="+" onclick="b4()" />
+		  </div>
+		</div>
+			
+			<div id="canvasInputs">	
+				<p name="canvasText" id="canvasText">Work Session</p>
+				<input name="timer" type="text" id="timer" value="25:00" />	
+			</div>
+
+	
+		<div id="canvas">
+		<canvas id="canVas" width="410" height="300"></canvas> 
+	 	</div>  
+
+		
+		<div id ="ssRes">
+		  <input name="b5" type="button" id="b5" value="Start" onclick="startFunc()" />
+		  <input name="b6" type="button" id="b6" value="Stop" onclick="stopFunc()" />
+		  <input name="b7" type="button" id="b7" value="Reset" onclick="resetFunc()"/>
+		  <input name="b8" type="button" id="b8" value="Switch" onclick="switchFunc()" />
+	   </div> 
+	
+	</div>
+<footer>
+		<div>
+			<nav class="navbar navbar-custon navbar-fixed-bottom" id="navBarBottom">
+    			<span> 
+    				Copyright © 2018 Nolan Kuenzi. All rights reserved. Made for the freeCodeCamp Development Challenge: Build a Pomodoro Clock.
+				</span>
+			</nav>
+		</div>
+</footer>
+
+	<script type="text/javascript" src="pomodoro.js"></script>	
+</body>
+</html>
