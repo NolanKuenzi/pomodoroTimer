@@ -20,7 +20,7 @@ h2 {
 #SL {
 	display: inline;
     position: relative; 
-    right: 4.7em;
+    right: 5em;
     color: white;
 }
 
@@ -35,7 +35,7 @@ h2 {
 	width: 2em;
     position: relative;
     top: 1em;
-    right: 7em;
+    right: 7.3em;
     text-align: center;
 }
 
@@ -48,9 +48,9 @@ h2 {
 }
 
 .b1_2 {
-    position: relative;
+  position: relative;
 	top: 2em;
-	right: 6.2em;
+	right: 6.5em;
 
 }
 
@@ -69,16 +69,17 @@ h2 {
     transform: translateY(.2em);
 }
 
-#canvasInputs {
+#display {
     position: relative; 
     text-align: center;
-    top: 17em;
+    top: 14em;
     z-index: 1;
     pointer-events: none;
 }
 
-#canvasText {
+#text {
     position: relative;
+    text-align: center;
     bottom: 1em;
     color: white;
     font-size: 1.1em;
@@ -93,17 +94,10 @@ h2 {
 
 }
 
-canvas {
-    background-color: gray;
-    position: relative; 
-    left: 36.8em;
-    top: 4em;
-} 
-
 #ssRes {
     position: relative; 
     text-align: center; 
-    top: 4em;
+    top: 19em;
 }
 
 #b5 {

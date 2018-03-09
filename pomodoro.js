@@ -1,15 +1,3 @@
-function draw() {
-    let canVas = document.getElementById("canVas");
-    let context = canVas.getContext("2d");
-    let centerX = canVas.width / 2;
-    let centerY = canVas.height / 2;
-    let radius = 100;
-    context.beginPath();
-    context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
-    context.lineWidth = 5;
-    context.strokeStyle = "black";
-    context.stroke();
-} 
 
 let num = getNum(timer.value);
 let tInterval;
@@ -22,7 +10,7 @@ function b1() {
     } else {
         t1.value = t1.value - 1;
     }    
-    if (canvasText.innerHTML === "Work Session") {
+    if (text.innerHTML === "Work Session") {
         timer.value = t1.value + ":" + 0 + 0;
         num = getNum(timer.value);
     }   
@@ -36,7 +24,7 @@ function b2() {
         t1.value++;
     }
 
-    if (canvasText.innerHTML === "Work Session") {
+    if (text.innerHTML === "Work Session") {
         timer.value = t1.value + ":" + 0 + 0;
         num = getNum(timer.value);
     }   
@@ -50,7 +38,7 @@ function b3() {
         t2.value = t2.value - 1;
     }
 
-    if (canvasText.innerHTML === "Break Session") {
+    if (text.innerHTML === "Break Session") {
         timer.value = t2.value + ":" + 0 + 0;
         num = getNum(timer.value);
     }
@@ -64,7 +52,7 @@ function b4() {
         t2.value++;
     }
 
-    if (canvasText.innerHTML === "Break Session") {
+    if (text.innerHTML === "Break Session") {
         timer.value = t2.value + ":" + 0 + 0;
         num = getNum(timer.value);
     }
@@ -94,10 +82,12 @@ function convert(s) {
 
 function run0() {    
     if (timer.value[0] === "-") {
-        audio();
+        stopFunc();
         resetFunc();
         switchFunc();
+        audio();  
         startFunc();
+
     } else {
         counter++;
         timer.value = convert(num - counter);
@@ -123,7 +113,7 @@ function resetFunc() {
     enable();
     counter = 0;
     b5.value = "Start";
-    if (canvasText.innerHTML === "Work Session") {
+    if (text.innerHTML === "Work Session") {
         timer.value = t1.value + ":" + 0 + 0;
     } else {
         timer.value = t2.value + ":" + 0 + 0;
@@ -131,12 +121,12 @@ function resetFunc() {
 }
 
 function switchFunc() {
-    if (canvasText.innerHTML === "Work Session") {
-        canvasText.innerHTML = "Break Session";
+    if (text.innerHTML === "Work Session") {
+        text.innerHTML = "Break Session";
         timer.value = t2.value + ":" + 0 + 0;
         num = getNum(timer.value);
     } else {
-        canvasText.innerHTML = "Work Session";
+        text.innerHTML = "Work Session";
         timer.value = t1.value + ":" + 0 + 0;
         num = getNum(timer.value);
     }	
@@ -169,10 +159,20 @@ let enable = () => {
     btn8.disabled = false;
 };
 
-let audio = () => {
+function audio() {
     let sound = new Audio("timer.mp3");
     sound.play();
-};
+    sound.onerror = function() {
+        alert("hmmm");
+    };
+}
+
+
+
+
+
+
+
 
 
 
