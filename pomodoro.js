@@ -163,7 +163,7 @@ function audio() {
     let sound = new Audio("timer.mp3");
     sound.play();
     sound.onerror = function() {
-        alert("hmmm");
+        alert("An error has occured in playing timer audio, please check your browser's auto play settings.");
     };
 }
 
