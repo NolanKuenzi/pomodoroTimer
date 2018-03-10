@@ -85,7 +85,7 @@ function run0() {
         stopFunc();
         resetFunc();
         switchFunc();
-        audio();  
+        audio0(); 
         startFunc();
 
     } else {
@@ -159,18 +159,18 @@ let enable = () => {
     btn8.disabled = false;
 };
 
-function audio() {
+function audio0() {
     let sound = new Audio("timer.mp3");
     sound.play();
-    sound.onerror = function() {
-        alert("An error has occured in playing timer audio, please check your browser's auto play settings.");
+  
+
+
+sound.onerror = function(error) {
+        alert("An error has occured while attempting to play timer audio.");
     };
+
+
 }
-
-
-
-
-
 
 
 
