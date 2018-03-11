@@ -85,7 +85,7 @@ function run0() {
         stopFunc();
         resetFunc();
         switchFunc();
-        audio0(); 
+        audio0();
         startFunc();
 
     } else {
@@ -139,6 +139,7 @@ let btn4 = document.getElementById("b4");
 let btn5 = document.getElementById("b5");
 let btn7 = document.getElementById("b7");
 let btn8 = document.getElementById("b8");
+let btn9 = document.getElementById("b9");
 
 let disable = () => {
     btn1.disabled = true;
@@ -159,18 +160,16 @@ let enable = () => {
     btn8.disabled = false;
 };
 
-function audio0() {
+let audio0 = () => {
     let sound = new Audio("timer.mp3");
     sound.play();
-  
 
-
-sound.onerror = function(error) {
+    sound.onerror = function() {
         alert("An error has occured while attempting to play timer audio.");
     };
 
 
-}
+};
 
 
 
