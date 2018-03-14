@@ -3,8 +3,8 @@ body {
 }
 
 #header {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
 h2 {
@@ -12,39 +12,39 @@ h2 {
 }
 
 #sess_break {
-    position: relative; 
-    top: 7em;
-    text-align: center;  
+  position: relative; 
+  top: 7em;
+  text-align: center;  
 }
 
 #SL {
 	display: inline;
-    position: relative; 
-    right: 5em;
-    color: white;
+  position: relative; 
+  right: 5em;
+  color: white;
 }
 
 #BL {
  	display: inline;
-    position: relative;
-    left: 5.3em;
-    color: white;
+  position: relative;
+  left: 5.3em;
+  color: white;
 }
 
 #t1 {
 	width: 2.5em;
-    position: relative;
-    top: 1em;
-    right: 7.2em;
-    text-align: center;
+  position: relative;
+  top: 1em;
+  right: 7.2em;
+  text-align: center;
 }
 
 #t2 {
 	width: 2.5em;
-    position: relative;
-    top: 1em;
-    left: 7.3em;
-    text-align: center;
+  position: relative;
+  top: 1em;
+  left: 7.3em;
+  text-align: center;
 }
 
 .b1_2 {
@@ -55,58 +55,58 @@ h2 {
 }
 
 .b1_2:active {
-    transform: translateY(.2em);
+  transform: translateY(.2em);
 }
 
 
 .b3_4 {
-    position: relative;
+  position: relative;
 	top: 2em;
 	left: 6.8em;
 }
 
 .b3_4:active {
-    transform: translateY(.2em);
+  transform: translateY(.2em);
 }
 
 #display {
-    position: relative; 
-    text-align: center;
-    top: 14em;
-    z-index: 1;
-    pointer-events: none;
+  position: relative; 
+  text-align: center;
+  top: 14em;
+  z-index: 1;
+  pointer-events: none;
 }
 
 #text {
-    position: relative;
-    text-align: center;
-    bottom: 1em;
-    color: white;
-    font-size: 1.1em;
-    z-index: 1;
+  position: relative;
+  text-align: center;
+  bottom: 1em;
+  color: white;
+  font-size: 1.1em;
+  z-index: 1;
 }
 
 #timer {
-    text-align: center;
-    width: 8em;
-    height: 3em;
-    position: relative;
+  text-align: center;
+  width: 8em;
+  height: 3em;
+  position: relative;
 
 }
 
 #ssRes {
-    position: relative; 
-    text-align: center; 
-    top: 19em;
+  position: relative; 
+  text-align: center; 
+  top: 19em;
 }
 
 #b5 {
-    margin-right: .5em;
-    text-align: center;
-    border-width: .12em;
-    background-color: gray;
-    border-color: black;
-    color: white;
+  margin-right: .5em;
+  text-align: center;
+  border-width: .12em;
+  background-color: gray;
+  border-color: black;
+  color: white;
 }
 
 #b5:active {
@@ -127,12 +127,12 @@ h2 {
 }
 
 #b6 {
-    margin-right: .5em;
-    text-align: center;
-    border-width: .12em;
-    background-color: gray;
-    border-color: black;
-    color: white;
+  margin-right: .5em;
+  text-align: center;
+  border-width: .12em;
+  background-color: gray;
+  border-color: black;
+  color: white;
 }
 
 #b6:active {
@@ -146,12 +146,12 @@ h2 {
 }
 
 #b7 {
-    margin-right: .5em;
-    text-align: center;
-    border-width: .12em;
-    background-color: gray;
-    border-color: black;
-    color: white;
+  margin-right: .5em;
+  text-align: center;
+  border-width: .12em;
+  background-color: gray;
+  border-color: black;
+  color: white;
 }
 
 #b7:active {
@@ -161,7 +161,7 @@ h2 {
 }
 
 #b7:focus {
-    outline: 0;
+  outline: 0;
 }
 
 #b7:disabled {
@@ -171,12 +171,12 @@ h2 {
 }
 
 #b8 {
-    margin-right: .5em;
-    text-align: center;
-    border-width: .12em;
-    background-color: gray;
-    border-color: black;
-    color: white;
+  margin-right: .5em;
+  text-align: center;
+  border-width: .12em;
+  background-color: gray;
+  border-color: black;
+  color: white;
 }
 
 #b8:active {
@@ -186,7 +186,7 @@ h2 {
 }
 
 #b8:focus {
-    outline: 0;
+  outline: 0;
 }
 
 #b8:disabled {
