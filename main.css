@@ -32,25 +32,25 @@ h2 {
 }
 
 #t1 {
-	width: 2em;
+	width: 2.5em;
     position: relative;
     top: 1em;
-    right: 7.3em;
+    right: 7.2em;
     text-align: center;
 }
 
 #t2 {
-	width: 2em;
+	width: 2.5em;
     position: relative;
     top: 1em;
-    left: 7.5em;
+    left: 7.3em;
     text-align: center;
 }
 
 .b1_2 {
   position: relative;
 	top: 2em;
-	right: 6.5em;
+	right: 6.7em;
 
 }
 
