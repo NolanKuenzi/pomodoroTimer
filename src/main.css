@@ -1,5 +1,19 @@
+html {
+  height: 100%;
+}
+
 body {
-	background-color: gray !important; 
+	background-color: gray !important;
+  height: 100%;
+}
+
+#bodyDiv {
+  position: relative;
+  min-height: 100%;
+}
+
+#content {
+  padding-bottom: 33.5em;
 }
 
 #header {
@@ -198,12 +212,15 @@ h2 {
 
 }
 
-footer {
-	text-align: center;
-	color: white;
-  overflow: hidden;
-  position: fixed;
+#footer {
+  position: relative;
+  right: 1em;
+  margin-top: -2.5em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
   text-align: center;
-  bottom: 0;
-   width: 100%;
+  color: gray;
+  background-color: white;
 }
