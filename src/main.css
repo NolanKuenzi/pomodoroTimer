@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	background-color: gray !important;
+  background-color: gray !important;
   height: 100%;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 h2 {
-	text-align: center;
+  text-align: center;
 }
 
 #sess_break {
@@ -34,21 +34,21 @@ h2 {
 }
 
 #SL {
-	display: inline;
+  display: inline;
   position: relative; 
   right: 5em;
   color: white;
 }
 
 #BL {
- 	display: inline;
+  display: inline;
   position: relative;
   left: 5.3em;
   color: white;
 }
 
 #t1 {
-	width: 2.5em;
+  width: 2.5em;
   position: relative;
   top: 1em;
   right: 7.2em;
@@ -56,7 +56,7 @@ h2 {
 }
 
 #t2 {
-	width: 2.5em;
+  width: 2.5em;
   position: relative;
   top: 1em;
   left: 7.3em;
@@ -65,8 +65,8 @@ h2 {
 
 .b1_2 {
   position: relative;
-	top: 2em;
-	right: 6.7em;
+  top: 2em;
+  right: 6.7em;
 
 }
 
@@ -77,8 +77,8 @@ h2 {
 
 .b3_4 {
   position: relative;
-	top: 2em;
-	left: 6.8em;
+  top: 2em;
+  left: 6.8em;
 }
 
 .b3_4:active {
@@ -107,7 +107,6 @@ h2 {
   width: 8em;
   height: 3em;
   position: relative;
-
 }
 
 #ssRes {
@@ -132,14 +131,13 @@ h2 {
 }
 
 #b5:focus {
-    outline: 0;
+  outline: 0;
 }
 
 #b5:disabled {
   background-color: gray;
   box-shadow: none;
   opacity: 0.5;
-
 }
 
 #b6 {
@@ -158,7 +156,7 @@ h2 {
 }
 
 #b6:focus {
-    outline: 0;
+  outline: 0;
 }
 
 #b7 {
@@ -209,7 +207,6 @@ h2 {
   background-color: gray;
   box-shadow: none;
   opacity: 0.5;
-
 }
 
 #footer {
