@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d public"
-
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,8 @@
   },
   "homepage": "https://github.com/NolanKuenzi/FCC_Pomodoro_Clock#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
   }
 }
